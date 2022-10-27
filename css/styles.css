@@ -1,6 +1,6 @@
 :root{
     --domain-text-color: #212121;
-    --hoover-color: #2196F3;
+    --hover-color: #2196F3;
     --button-hover: #188CE8;
     --p-color: #757575;
     --default-color: #FFFFFF;
@@ -58,8 +58,6 @@ html {
 *::before *::after {
     box-sizing: inherit;
 }
-
-
 
 button{
     font-family: inherit;
@@ -124,11 +122,11 @@ img{
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31/26);
-    color: var(--hoover-color);
+    color: var(--hover-color);
     text-decoration: none;
     margin-right: 91px;
     margin-left: auto;
-    align-items: center;
+    align-items: center;    
 }
 
 .text-studio{
@@ -167,7 +165,7 @@ img{
 .active-link{
     position: relative;
 
-    color: var(--hoover-color);
+    color: var(--hover-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -185,12 +183,12 @@ img{
     display: block;
     
     border-radius: 2px;
-    background-color: var(--hoover-color);
+    background-color: var(--hover-color);
 }
 
 .nav .link:hover,
 .nav .link:focus{
-    color: var(--hoover-color);
+    color: var(--hover-color);
 }
 
 .nav .link::after{
@@ -204,7 +202,7 @@ img{
     display: block;
 
     border-radius: 2px;
-    background-color: var(--hoover-color);
+    background-color: var(--hover-color);
     transform: scale(0);
 
     transition: transform 250ms var(--cubic);
@@ -239,8 +237,8 @@ img{
 
 .header-contacts:hover,
 .header-contacts:focus{
-    color: var(--hoover-color);
-    fill: var(--hoover-color);
+    color: var(--hover-color);
+    fill: var(--hover-color);
 }
 
 .icon-convert{
@@ -292,7 +290,7 @@ img{
     font-size: 16px;
     line-height: calc(30/16);
     color: var(--default-color);
-    background-color: var(--hoover-color);
+    background-color: var(--hover-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: transparent;
@@ -497,7 +495,7 @@ img{
 }
 
 .svg-link:hover, .svg-link:focus{
-    background-color: var(--hoover-color);
+    background-color: var(--hover-color);
     fill: var(--default-color);
 }
 
@@ -542,8 +540,8 @@ img{
 }
 
 .clients-link:hover, .clients-link:focus{
-    border-color: var(--hoover-color);
-    fill: var(--hoover-color);
+    border-color: var(--hover-color);
+    fill: var(--hover-color);
 }
 
 .clients-svg{
@@ -580,7 +578,7 @@ img{
 
 .portfolio-button:hover,
 .portfolio-button:focus{
-    background-color: var(--hoover-color);
+    background-color: var(--hover-color);
     color: var(--default-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -689,7 +687,7 @@ img{
 
 .footer-adress:hover,
 .footer-adress:focus{
-    color: var(--hoover-color);
+    color: var(--hover-color);
 }
 
 .footer-contacts{
@@ -703,7 +701,7 @@ img{
 
 .footer-contacts:hover,
 .footer-contacts:focus{
-    color: var(--hoover-color);
+    color: var(--hover-color);
 }
 
 .foot{
@@ -768,7 +766,7 @@ img{
 
 .foot-svg-link:hover,
 .foot-svg-link:focus{
-    background-color: var(--hoover-color);
+    background-color: var(--hover-color);
 }
 
 .foot-svg-icon{
@@ -834,7 +832,7 @@ img{
 }
 
 .close-button:hover, .close-button:focus{
-    background-color: var(--hoover-color);
+    background-color: var(--hover-color);
     fill: var(--default-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }

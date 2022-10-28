@@ -441,6 +441,28 @@
             </li>
           </ul>
         </div>
+        <div class="foot-form-container">
+          <p class="form-p p-utility">Підпишіться на розсилку</p>
+          <div class="foot-form-div">
+            <form class="foot-form">
+              <label for="" class="field-foot">
+                <input
+                  class="foot-input"
+                  type="mail"
+                  name="foot-email"
+                  placeholder="E-mail"
+                  autocomplete="on"
+                />
+              </label>
+            </form>
+            <button class="foot-submit" type="submit">
+              Підписатися
+              <svg class="icon-send" width="24px" height="24px">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -450,6 +472,60 @@
             <use href="./images/sprite.svg#icon-chrest"></use>
           </svg>
         </button>
+        <h2 class="modal-h h-utility">Залиште свої дані, ми вам передзвонимо</h2>
+        <form class="form">
+          <label class="form-label">
+            <span class="label-text">Ім'я</span>
+            <input class="form-input in" type="text" name="name" autocomplete="on" />
+            <svg class="form-icons man" width="12px" height="12px">
+              <use href="./images/sprite.svg#icon-man"></use>
+            </svg>
+          </label>
+
+          <label class="form-label">
+            <span class="label-text">Телефон</span>
+            <input class="form-input in" type="tel" name="telephone" autocomplete="on" />
+            <svg class="form-icons tel" width="13px" height="13px">
+              <use href="./images/sprite.svg#icon-tel"></use>
+            </svg>
+          </label>
+
+          <label class="form-label">
+            <span class="label-text">Пошта</span>
+            <input class="form-input in" type="mail" name="email" autocomplete="on" />
+            <svg class="form-icons conv" width="15px" height="12px">
+              <use href="./images/sprite.svg#icon-form-conert"></use>
+            </svg>
+          </label>
+
+          <label class="form-label comment">
+            <span class="label-text">Коментар</span>
+            <textarea
+              class="form-input ta"
+              name="comment"
+              cols="30"
+              rows="7"
+              placeholder="Введіть текст"
+              autocomplete="off"
+            ></textarea>
+          </label>
+
+          <div class="policy-container">
+            <label class="form-label policy-label">
+              <input class="policy-checkbox" type="checkbox" name="policy" />
+              <svg class="custom-checkbox" width="16px" height="15px">
+                <use href="./images/sprite.svg#icon-checkbox"></use>
+              </svg>
+              <span class="policy-text">
+                Погоджуюся з розсилкою та приймаю <a class="policy-link" href="#">Умови договору</a>
+              </span>
+            </label>
+          </div>
+
+          <div class="submit-div">
+            <button class="form-submit" type="submit">Відправити</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>

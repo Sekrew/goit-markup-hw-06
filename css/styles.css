@@ -773,8 +773,6 @@ img {
 }
 
 .foot-form-div {
-  display: flex;
-  justify-content: center;
 }
 
 .form-p {
@@ -790,11 +788,13 @@ img {
 .foot-form {
   margin-right: 12px;
   min-width: 358px;
+  display: flex;
 }
 
 .field-foot {
   display: block;
   width: auto;
+  margin-right: 12px;
 }
 
 .foot-input {
@@ -1027,12 +1027,13 @@ textarea {
 .policy-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .modal .policy-label {
   display: flex;
   width: auto;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   fill: var(--default-color);
   align-items: center;
 }
